@@ -1,0 +1,497 @@
+1.
+
+#include <bits/stdc++.h>
+using namespace std;
+void d()
+{
+     cout<<"starting of d"<<endl;
+     cout<<"ending of d"<<endl;
+}
+void c()
+{
+    cout<<"starting of c"<<endl;
+   d();
+   cout<<"ending of c"<<endl;
+}
+void b()
+{
+    cout<<"starting of b"<<endl;
+      c();
+     cout<<"ending of b"<<endl;
+}
+void a()
+{
+   cout<<"starting of a"<<endl;
+   b();
+   cout<<"ending of a"<<endl;
+   
+}
+int main()
+{
+    a();
+
+    return 0;
+}
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+2.
+
+#include <bits/stdc++.h>
+using namespace std;
+void j()
+{
+     cout<<"starting of j"<<endl;
+     cout<<"ending of j"<<endl;
+}
+void i()
+{
+     cout<<"starting of i"<<endl;
+     cout<<"ending of i"<<endl;
+}
+void h()
+{
+     cout<<"starting of h"<<endl;
+     cout<<"ending of h"<<endl;
+}
+void g()
+{
+     cout<<"starting of g"<<endl;
+     cout<<"ending of g"<<endl;
+}
+void f()
+{
+     cout<<"starting of f"<<endl;
+     cout<<"ending of f"<<endl;
+}
+void e()
+{
+     cout<<"starting of e"<<endl;
+     cout<<"ending of e"<<endl;
+}
+void d()
+{
+     cout<<"starting of d"<<endl;
+     i();
+     j();
+     cout<<"ending of d"<<endl;
+}
+void c()
+{
+    cout<<"starting of c"<<endl;
+   g();
+   h();
+   cout<<"ending of c"<<endl;
+}
+void b()
+{
+    cout<<"starting of b"<<endl;
+      e();
+      f();
+     cout<<"ending of b"<<endl;
+}
+void a()
+{
+   cout<<"starting of a"<<endl;
+   b();
+   c();
+   d();
+   cout<<"ending of a"<<endl;
+   
+}
+int main()
+{
+    a();
+
+    return 0;
+}
+
+
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+3.  
+
+
+#include <bits/stdc++.h>
+using namespace std;
+void i()
+{
+     cout<<"starting of i"<<endl;
+    cout<<"ending of i"<<endl;
+}
+void h()
+{
+     cout<<"starting of h"<<endl;
+    cout<<"ending of h"<<endl;
+}
+void g()
+{
+     cout<<"starting of g"<<endl;
+    cout<<"ending of g"<<endl;
+}
+void f()
+{
+     cout<<"starting of f"<<endl;
+     g();
+     h();
+     i();
+    cout<<"ending of f"<<endl;
+}
+void e()
+{
+    cout<<"starting of e"<<endl;
+    cout<<"ending of e"<<endl;
+}
+void d()
+{
+     cout<<"starting of d"<<endl;
+     f();
+    cout<<"ending of d"<<endl;
+}
+void c()
+{
+    cout<<"starting of c"<<endl;
+    cout<<"ending of c"<<endl;
+}
+void b()
+{
+    cout<<"starting of b"<<endl;
+    c();
+    d();
+    e();
+     cout<<"ending of b"<<endl;
+}
+void a()
+{
+     cout<<"starting of a"<<endl;
+    b();
+    cout<<"ending of a"<<endl;
+}
+int main()
+{
+    a();
+
+    return 0;
+}
+
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+4 .
+
+#include <bits/stdc++.h>
+using namespace std;
+
+void f()
+{
+     cout<<"starting of f"<<endl;
+    cout<<"ending of f"<<endl;
+}
+void e()
+{
+    cout<<"starting of e"<<endl;
+    cout<<"ending of e"<<endl;
+}
+void d()
+{
+     cout<<"starting of d"<<endl;
+    cout<<"ending of d"<<endl;
+}
+void c()
+{
+    cout<<"starting of c"<<endl;
+    d();
+    e();
+    f();
+    cout<<"ending of c"<<endl;
+}
+void b()
+{
+    cout<<"starting of b"<<endl;
+    c();
+     cout<<"ending of b"<<endl;
+}
+void a()
+{
+     cout<<"starting of a"<<endl;
+    b();
+    cout<<"ending of a"<<endl;
+}
+int main()
+{
+    a();
+
+    return 0;
+}
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+5 .
+
+
+#include <bits/stdc++.h>
+using namespace std;
+void i()
+{
+     cout<<"starting of i"<<endl;
+    cout<<"ending of i"<<endl;
+}
+void h()
+{
+     cout<<"starting of h"<<endl;
+    cout<<"ending of h"<<endl;
+}
+void g()
+{
+     cout<<"starting of g"<<endl;
+     i();
+    cout<<"ending of g"<<endl;
+}
+void f()
+{
+     cout<<"starting of f"<<endl;
+    cout<<"ending of f"<<endl;
+}
+void e()
+{
+    cout<<"starting of e"<<endl;
+    f();
+    g();
+    h();
+    cout<<"ending of e"<<endl;
+}
+void d()
+{
+     cout<<"starting of d"<<endl;
+    cout<<"ending of d"<<endl;
+}
+void c()
+{
+    cout<<"starting of c"<<endl;
+    e();
+    cout<<"ending of c"<<endl;
+}
+void b()
+{
+    cout<<"starting of b"<<endl;
+     cout<<"ending of b"<<endl;
+}
+void a()
+{
+     cout<<"starting of a"<<endl;
+    b();
+    c();
+    d();
+    cout<<"ending of a"<<endl;
+}
+int main()
+{
+    a();
+
+    return 0;
+}
+
+
+
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+7 .  
+
+
+#include <bits/stdc++.h>
+using namespace std;
+
+void g()
+{
+     cout<<"starting of g"<<endl;
+    cout<<"ending of g"<<endl;
+}
+void f()
+{
+     cout<<"starting of f"<<endl;
+    cout<<"ending of f"<<endl;
+}
+void e()
+{
+    cout<<"starting of e"<<endl;
+    cout<<"ending of e"<<endl;
+}
+void d()
+{
+     cout<<"starting of d"<<endl;
+     e();
+     f();
+     g();
+    cout<<"ending of d"<<endl;
+}
+void c()
+{
+    cout<<"starting of c"<<endl;
+    d();
+    cout<<"ending of c"<<endl;
+}
+void b()
+{
+    cout<<"starting of b"<<endl;
+    c();
+     cout<<"ending of b"<<endl;
+}
+void a()
+{
+     cout<<"starting of a"<<endl;
+    b();
+    cout<<"ending of a"<<endl;
+}
+int main()
+{
+    a();
+
+    return 0;
+}
+
+
+
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+8.
+
+#include <bits/stdc++.h>
+using namespace std;
+
+void h()
+{
+     cout<<"starting of h"<<endl;
+    cout<<"ending of h"<<endl;
+}
+void g()
+{
+     cout<<"starting of g"<<endl;
+     h();
+    cout<<"ending of g"<<endl;
+}
+void f()
+{
+     cout<<"starting of f"<<endl;
+     g();
+    cout<<"ending of f"<<endl;
+}
+void e()
+{
+    cout<<"starting of e"<<endl;
+    h();
+    cout<<"ending of e"<<endl;
+}
+void d()
+{
+     cout<<"starting of d"<<endl;
+     e();
+    cout<<"ending of d"<<endl;
+}
+void c()
+{
+    cout<<"starting of c"<<endl;
+    d();
+    cout<<"ending of c"<<endl;
+}
+void b()
+{
+    cout<<"starting of b"<<endl;
+    f();
+     cout<<"ending of b"<<endl;
+}
+void a()
+{
+     cout<<"starting of a"<<endl;
+    b();
+    c();
+    cout<<"ending of a"<<endl;
+}
+int main()
+{
+    a();
+
+    return 0;
+}
+
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+9 .
+
+#include <bits/stdc++.h>
+using namespace std;
+
+void d()
+{
+     cout<<"starting of d"<<endl;
+    cout<<"ending of d"<<endl;
+}
+void c()
+{
+    cout<<"starting of c"<<endl;
+    d();
+    cout<<"ending of c"<<endl;
+}
+void b()
+{
+    cout<<"starting of b"<<endl;
+    d();
+     cout<<"ending of b"<<endl;
+}
+void a()
+{
+     cout<<"starting of a"<<endl;
+    b();
+    c();
+    cout<<"ending of a"<<endl;
+}
+int main()
+{
+    a();
+
+    return 0;
+}
+
+
+
+
+
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+10.
+
+
+#include <bits/stdc++.h>
+using namespace std;
+
+void f()
+{
+     cout<<"starting of f"<<endl;
+    cout<<"ending of f"<<endl;
+}
+void e()
+{
+    cout<<"starting of e"<<endl;
+    f();
+    cout<<"ending of e"<<endl;
+}
+void d()
+{
+     cout<<"starting of d"<<endl;
+     f();
+    cout<<"ending of d"<<endl;
+}
+void c()
+{
+    cout<<"starting of c"<<endl;
+    e();
+    cout<<"ending of c"<<endl;
+}
+void b()
+{
+    cout<<"starting of b"<<endl;
+    d();
+     cout<<"ending of b"<<endl;
+}
+void a()
+{
+     cout<<"starting of a"<<endl;
+    b();
+    c();
+    cout<<"ending of a"<<endl;
+}
+int main()
+{
+    a();
+
+    return 0;
+}
